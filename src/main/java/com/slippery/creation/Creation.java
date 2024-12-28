@@ -3,6 +3,7 @@ package com.slippery.creation;
 import java.io.*;
 
 public class Creation {
+
     public static void main(String [] args) throws IOException {
         File texts =new File("/home/slippery/Documents/textsFile.txt");
         if(texts.createNewFile()){
